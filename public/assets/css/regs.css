@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    --pagePadding: 6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 80px;
+    background-size: cover;
+}
+
+.image__reg {
+    height: 360px;
+    width: 100%;
+    background-color: hsl(0, 0%, 85%);
+}
+
+.backBtn__svg {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
+
+.p-title {
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px hsl(0, 0%, 78%);
+}
+
+.reg__font {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.personal__det {
+    width: 841px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.bank__det {
+    width: 841px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+hr {
+    padding-top: 20px;
+}
+
+.flex__bank {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex__bankImg {
+    display: flex;
+    gap: 40px;
+}
+
+.reg__ack {
+    padding-top: 60px;
+    display: flex;
+    gap: 45px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 1495px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
